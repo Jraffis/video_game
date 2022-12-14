@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+.container{
+    margin-top: 90px;
+}
+p{
+    text-align: justify;
+    color: whitesmoke;
+}
+.carrd{
+    margin-top: 90px;
+    color: white;
+}
+.nav-link{
+    color: whitesmoke;
+}
+.dropdown-menu{
+    background-color: gray;
+}
+.dropdown-item{
+    color: black
+}
+.card-img-top{
+    background-color: whitesmoke;
+}
+.card-title{
+    text-align: justify;
+}
+#texto{
+    color: #d22222;
+    text-align: center;
+}
+.div{
+    margin-left: 750px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="game.css">
+        <title>Game</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Games</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Games</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="historias.html">Histórias das Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lojaconsoles.html">Loja de Consoles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="lojapcgamer.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Loja PC Gamer
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="cadeiras.html">Cadeiras</a></li>
+                        <li><a class="dropdown-item" href="gabinetes.html">Gabinetes</a></li>
+                        <li><a class="dropdown-item" href="monitores.html">Monitores</a></li>
+                        <li><a class="dropdown-item" href="mesas.html">Mesas</a></li>
+                        <li><a class="dropdown-item" href="lojajogos.html">Jogos</a></li>
+                        <li><a class="dropdown-item" href="perifericos.html">Periféricos</a></li>
+                        <li><a class="dropdown-item" href="peças.html">Peças</a></li>
+                        <li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container">
+            <div id="carrd" class="card w-75 text-bg-dark mb-3">
+                <div class="card-body">
+                  <h5 id="a" class="card-title">Em nossa loja, você poderá encontrar diversos e variados tipos de jogos de simulação e ação dispníveis à venda.</h5>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="lojajogos/forza.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">R$ 399,00</h5>
+                          <p class="card-text">Forza Horizon 5 - Premium Edition</p>
+                          <p class="card-text">Explore um mundo aberto e vibrante nas terras mexicanas com corridas divertidas e sem limites enquanto pilota os melhores carros do mundo. Acelere para o Parque Hot Wheels e corra nas pistas mais radicais já criadas. Requer Forza Horizon 5, expansão vendida separadamente.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                    <img src="lojajogos/eurotruck.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">89,90</h5>
+                      <p class="card-text">Viaje pela Europa como o rei da estrada, um caminhoneiro que entrega cargas importantes em distâncias impressionantes! Com dezenas de cidades para explorar, sua resistência, habilidade e velocidade serão levadas ao limite.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="lojajogos/farming.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">199,00</h5>
+                          <p class="card-text">Farming Simulator 22 - Platinum Edition</p>
+                          <p class="card-text">Crie sua fazenda e cultive os bons tempos! Trate de culturas, cuide de animais, administre a produção e enfrente os desafios sazonais.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div class="div">
+            <div class="row">
+              <div id="coljogos" class="col">
+                  <div id="cardjogos" class="card text-bg-dark mb-3" style="width: 18rem;">
+                      <img src="lojajogos/gtav.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">R$ 89,90</h5>
+                        <p class="card-text">Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).</p>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          </div>
+          
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>
